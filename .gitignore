@@ -1,0 +1,7 @@
+*.pyc
+.idea/
+db.sqlite3
+.env
+db.sqlite3-shm
+db.sqlite3-wal
+sentence_tokenizer.pickle
