@@ -42,10 +42,13 @@ window.onload = function () {
 			        .then(response => response.json()).then((json) => {
 			          	this.messages.push(json['message'])
 			    	})
+
 			} else {
 				this.send_blank = true;
 				this.placeholder = "Please put in some text";
 			}
+
+
 
 		},
 		check_content: function() {
