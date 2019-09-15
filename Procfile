@@ -1,1 +1,1 @@
-web: gunicorn astabot.wsgi --log-file - python astabot/manage.py collectstatic --noinput; bin/gunicorn_django --workers=4 --bind=0.0.0.0:$PORT astabot/settings.py
+web: gunicorn astabot.wsgi --log-file -
